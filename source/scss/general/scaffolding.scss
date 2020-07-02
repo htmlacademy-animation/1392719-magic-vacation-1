@@ -99,3 +99,22 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.ready {
+
+  
+  .page-header__logo {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+  .page-header__nav {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+  .screen__footer  {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}

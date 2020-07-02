@@ -1,4 +1,5 @@
 export default () => {
+  let body = document.getElementById('body');
   let header = document.querySelector(`.js-header`);
   let menuToggler = document.querySelector(`.js-menu-toggler`);
   let menuLinks = document.querySelectorAll(`.js-menu-link`);
@@ -22,5 +23,9 @@ export default () => {
         document.body.classList.remove(`menu-opened`);
       }
     });
+  }
+
+  body.onload = () => {
+    body.classList.add('ready')
   }
 };
