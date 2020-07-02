@@ -5,6 +5,7 @@
     .social-block__list {
       opacity: 1;
       pointer-events: auto;
+      transition: opacity 0.25s;
     }
   }
 }
@@ -17,6 +18,7 @@
   height: 4rem;
   color: $c-dark;
   border-radius: 50%;
+  transition: color 0.25s;
 
   @media (max-width: $tablet) and (orientation: portrait) {
     display: none;
@@ -35,6 +37,7 @@
     background-color: $c-light;
     border: 2px solid $c-light;
     z-index: -1;
+    transition: width 0.25s, height 0.25s;
   }
 
   svg {
