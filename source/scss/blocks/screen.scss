@@ -19,6 +19,17 @@
   }
 }
 
+.active {
+      
+  .intro__message {
+    opacity: 1;
+  }
+
+  .form__field  {
+    transform: translateX(0%);
+  }
+}
+
 .screen__wrapper {
   @include container;
   position: relative;
